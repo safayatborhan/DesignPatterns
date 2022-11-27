@@ -1,4 +1,5 @@
 ﻿using FactoryMethod;
+using FactoryMethod.Factories;
 
 Console.Title = "Factory Method";
 
