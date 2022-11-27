@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-27T12:24:32.575Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="a9S0Od6L679LIJCZTSBO" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-27T16:49:34.482Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="eiBNHnMzDOktEyNRVVqk" version="20.5.3" type="github" pages="2">
   <diagram id="mJkv2FqQRV_6GsChbIN9" name="Factory Method">
-    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,6 +47,39 @@
         </mxCell>
         <mxCell id="2kzVzVAAn_KX4tRFRkCm-13" value="Client" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pTgZ9-dvEZtLF4B7p7Sw" name="Abstract Factory">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YWlVElYsCYRbk1aTVE1y-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YWlVElYsCYRbk1aTVE1y-1" target="YWlVElYsCYRbk1aTVE1y-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="140" />
+              <mxPoint x="558" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWlVElYsCYRbk1aTVE1y-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YWlVElYsCYRbk1aTVE1y-1" target="YWlVElYsCYRbk1aTVE1y-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="320" />
+              <mxPoint x="210" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWlVElYsCYRbk1aTVE1y-1" value="&lt;b&gt;IShoppingCartPurchaseFactory&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;b&gt;IShippingCostsService&lt;/b&gt; CreateShippingCostsService()&lt;br&gt;&lt;b&gt;IDiscountService&lt;/b&gt; CreateDiscountService()" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YWlVElYsCYRbk1aTVE1y-2" value="&lt;b&gt;IDiscountService&lt;/b&gt;&lt;br&gt;&lt;br&gt;int DiscountPercentage" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="400" y="110" width="275" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YWlVElYsCYRbk1aTVE1y-4" value="&lt;b&gt;IShippingCostsService&lt;/b&gt;&lt;br&gt;&lt;br&gt;decimal ShippingCosts" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="400" y="370" width="300" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
